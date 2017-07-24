@@ -1,0 +1,13 @@
+DEPENDENCIES
+  bonusbits_library
+    git: https://github.com/bonusbits/bonusbits_library.git
+    revision: 63a69ef3b1e8e54bc834383f69f64fdc710c2d10
+  selinux (~> 2.0.3)
+  virti_chef_base
+    path: .
+    metadata: true
+
+GRAPH
+  bonusbits_library (1.1.1)
+  selinux (2.0.3)
+  virti_chef_base (0.1.0)

@@ -11,4 +11,4 @@
 include_recipe 'virti_chef_base::packages' if node['virti_chef_base']['packages']['install']
 
 # configure o selinux
-include_recipe 'virti_chef_base::security' if node['virti_chef_base']['security']['selinux']['configure'] 
+#include_recipe 'virti_chef_base::security' if node['virti_chef_base']['security']['selinux']['configure'] 

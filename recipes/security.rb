@@ -1,5 +1,5 @@
 selinux_state "SELinux Permissive" do
-  action node['virti_chef_base']['security']['selinux']['action'].to_sym
+  action :disable
 end
 
 

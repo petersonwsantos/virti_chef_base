@@ -54,7 +54,8 @@ default['virti_chef_base']['packages'].tap do |packages|
     sudo
     util-linux-ng
     vim-enhanced
-    epel-release 	
+    epel-release
+    vim
   )
 
   packages['suse']['packages'] = %w(

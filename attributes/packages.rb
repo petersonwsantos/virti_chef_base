@@ -41,21 +41,12 @@ default['virti_chef_base']['packages'].tap do |packages|
   )
 
   packages['redhat']['packages'] = %w(
-    ca-certificates
     curl
     git
     gzip
-    mlocate
+    tree 
     net-tools
-    openssh-clients
-    openssh-server
-    openssl
-    procps
-    sudo
-    util-linux-ng
     vim-enhanced
-    epel-release
-    vim
   )
 
   packages['suse']['packages'] = %w(

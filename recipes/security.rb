@@ -1,5 +1,5 @@
 selinux_state "SELinux Permissive" do
-  action :disable
+  action :disabled
 end
 
 
